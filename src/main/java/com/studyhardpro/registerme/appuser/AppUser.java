@@ -1,4 +1,4 @@
-package com.studyhardpro.registerme.appUser;
+package com.studyhardpro.registerme.appuser;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

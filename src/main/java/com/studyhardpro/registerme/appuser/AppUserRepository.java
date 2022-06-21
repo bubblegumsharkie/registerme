@@ -1,4 +1,4 @@
-package com.studyhardpro.registerme.appUser;
+package com.studyhardpro.registerme.appuser;
 
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;

@@ -1,4 +1,4 @@
-package com.studyhardpro.registerme.appUser;
+package com.studyhardpro.registerme.appuser;
 
 import lombok.AllArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;

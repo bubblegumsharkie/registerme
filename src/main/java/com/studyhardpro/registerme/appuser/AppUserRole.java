@@ -1,4 +1,4 @@
-package com.studyhardpro.registerme.appUser;
+package com.studyhardpro.registerme.appuser;
 
 public enum AppUserRole {
     USER,
