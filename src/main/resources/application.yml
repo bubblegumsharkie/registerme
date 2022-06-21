@@ -8,11 +8,12 @@ spring:
     url: jdbc:postgresql://localhost:5432/registration
     username: postgres
     password: lucky13
-jpa:
+
+spring.jpa:
   hibernate:
     ddl-auto: create-drop
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDeialect
         format_sql: true
-    show-aql: true
+    show-sql: true
