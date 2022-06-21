@@ -16,17 +16,17 @@ import java.util.Collections;
 @Setter
 @EqualsAndHashCode
 @NoArgsConstructor
-@Entity
+@Entity(name = "app_users")
 public class AppUser implements UserDetails {
 
     @SequenceGenerator(
-            name = "student_sequence",
-            sequenceName = "student_sequence",
+            name = "user_sequence",
+            sequenceName = "user_sequence",
             allocationSize = 1
     )
-    @GeneratedValue(strategy = GenerationType.SEQUENCE,
-    generator = "student_sequence")
     @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE,
+    generator = "user_sequence")
     private Long id;
     private String name;
     private String username;

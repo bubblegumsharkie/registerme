@@ -6,13 +6,13 @@ server:
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/registration
-    password: postgres
-    username: lucky13
+    username: postgres
+    password: lucky13
 jpa:
   hibernate:
     ddl-auto: create-drop
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDeialect
-        format_sql: triew
+        format_sql: true
     show-aql: true
