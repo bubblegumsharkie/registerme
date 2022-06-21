@@ -1,1 +1,18 @@
+server:
+  error:
+    include-message: always
+    include-binding-errors: always
 
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/registration
+    password: postgres
+    username: lucky13
+jpa:
+  hibernate:
+    ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDeialect
+        format_sql: triew
+    show-aql: true
